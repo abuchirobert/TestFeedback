@@ -1,13 +1,10 @@
 # Sample Hardhat Project
+This is  a simple feedback dapp that allow users to submit feedback and also see feedbacks from other users.
+Note: You must have Metamask plugin installed for this to work
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Click on the connect button to connect to Metamask, and be sure you have some Etheruem in your wallet balance.
 
-Try running some of the following tasks:
+After your wallet have connected successfully, enter your feedback and submit.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Wait for the transaction to process and Voila...
+
