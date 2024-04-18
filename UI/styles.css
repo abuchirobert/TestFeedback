@@ -7,6 +7,27 @@ body {
   
   /* Other styles remain the same... */
   
+  /* #UserMessage{
+    border: 1px solid #3a38c7;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  } */
+
+  #feedbackLists{
+    border-bottom: 1px solid ;
+    margin-bottom: 5px;
+    
+  }
+
+  #feedbackItems li {
+    background-color: #3498db;  /* Adjust color as desired */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
   
   #app {
     display: flex;
