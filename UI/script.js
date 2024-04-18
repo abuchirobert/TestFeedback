@@ -127,6 +127,7 @@ const abi =   [
             document.getElementById("connectWallet").innerText = "Connected"
         } else {
             console.log("No Metamask exist")
+            document.getElementById("connectWallet").innerText = "Install Metamask"
         }
           
         }
